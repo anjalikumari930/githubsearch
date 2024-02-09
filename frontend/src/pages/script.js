@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Logout from "../Auth/Logout";
 import axios from "axios";
 import {
   Navbar,
@@ -82,6 +83,7 @@ const Home = () => {
               Search
             </Button>
           </form>
+          <Logout></Logout>
         </Container>
       </Navbar>
 
